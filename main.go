@@ -29,7 +29,7 @@ func main() {
 	defer res.Body.Close()
 
 	if res.StatusCode != 200 {
-		panic("Score Api not available")
+		panic("Score Api not available to real time")
 	}
 	body, err := io.ReadAll(res.Body)
 	if err != nil {
