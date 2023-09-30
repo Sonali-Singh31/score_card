@@ -1,0 +1,9 @@
+{
+  "filters": {
+    "dateFrom": "2023-09-30",
+    "dateTo": "2023-10-01",
+    "permission": null
+  },
+  "resultSet": { "count": 0 },
+  "matches": []
+}
