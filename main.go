@@ -43,5 +43,5 @@ func main() {
 	}
 	fmt.Println(score)
 	time, result := score.Filters, score.ResultSet
-	fmt.Printf("%s, %s, %v\n", time.DateFrom, time.DateTo, result.Count)
+	fmt.Printf("Start date of the game: %s\nEnd Date of the game: %s\nResult:  %v\n", time.DateFrom, time.DateTo, result.Count)
 }
